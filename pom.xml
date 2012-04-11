@@ -38,7 +38,7 @@
 		<dependency>
 			<groupId>org.jboss.arquillian.junit</groupId>
 			<artifactId>arquillian-junit-container</artifactId>
-			<version>1.0.0.CR8</version>
+			<version>1.0.0.CR7</version>
 			<scope>test</scope>
 			<exclusions>
 				<exclusion>
@@ -52,7 +52,7 @@
 			</exclusions>
 		</dependency>
 		
-		<!-- ShrinkWrap Descriptors is not stable enough right now -->
+		<!-- ShrinkWrap Descriptors not stable enough right now -->
         <dependency>
             <groupId>org.jboss.shrinkwrap.descriptors</groupId>
             <artifactId>shrinkwrap-descriptors-impl-jboss</artifactId>
@@ -60,6 +60,7 @@
             <scope>test</scope>
         </dependency>
         
+        <!-- ShrinkWrap Resolvers not stable enough right now -->
         <dependency>
             <groupId>org.jboss.shrinkwrap.resolver</groupId>
             <artifactId>shrinkwrap-resolver-impl-maven</artifactId>
